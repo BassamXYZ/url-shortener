@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Redirect{% endblock %}
+
+{% block content%}
+<h1 align="center">URL shortener</h1>
+<div class="text-center mt-3">
+  {% if url %}
+  <button type="button" class="btn btn-primary"  onClick="clicks({{ url.id }}, '{{ url.main_url }}')">
+    Get URL
+  </button>
+  {% else %}
+  <div class="h2">
+    Error 404
+  </div>
+  {% endif %}
+</div>
+
+{% endblock %}
