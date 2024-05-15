@@ -2,10 +2,6 @@
 
 This is a URL shortener built with flask.
 
-## Screenshots
-
-![App Screenshot](https://i.postimg.cc/43HN69Ch/url-shortener.png)
-
 ## Feedback
 
 If you have any feedback, please reach out to us at <bassam.essam.ahmad@gmail.com>
